@@ -33,7 +33,9 @@ CMakeFiles/PokerAnalysis.dir/PokerScore.cpp.obj: ../PokerScore.h
 
 CMakeFiles/PokerAnalysis.dir/main.cpp.obj: ../BaseCard.h
 CMakeFiles/PokerAnalysis.dir/main.cpp.obj: ../CardHand.h
+CMakeFiles/PokerAnalysis.dir/main.cpp.obj: ../CardHandScorer.h
 CMakeFiles/PokerAnalysis.dir/main.cpp.obj: ../CardVariables.h
 CMakeFiles/PokerAnalysis.dir/main.cpp.obj: ../Deck.h
+CMakeFiles/PokerAnalysis.dir/main.cpp.obj: ../PokerScore.h
 CMakeFiles/PokerAnalysis.dir/main.cpp.obj: ../main.cpp
 

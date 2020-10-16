@@ -8,7 +8,10 @@
 #include "PokerScore.h"
 
 class CardHandScorer {
-    void swap(BaseCard &card1, BaseCard &card2);
+public:
+    static void sort(CardHand& hand);
+    static void swap(BaseCard& card1, BaseCard& card2);
+    static PokerScore scorePokerHand(CardHand hand);
 };
 
 

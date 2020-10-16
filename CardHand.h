@@ -18,6 +18,8 @@ public:
     void addCard(BaseCard card);
     friend std::ostream& operator<<(std::ostream& out, const CardHand& hand);
     int getSize() const;
+    int getCardValueAt(int index);
+    BaseCard& getCardAt(int index);
 
 
 };

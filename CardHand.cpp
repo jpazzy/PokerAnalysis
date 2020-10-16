@@ -20,3 +20,11 @@ std::ostream &operator<<(std::ostream &out, const CardHand &hand) {
 int CardHand::getSize() const{
     return hand.size();
 }
+
+int CardHand::getCardValueAt(int index) {
+    return hand[index].getRankValue();
+}
+
+BaseCard& CardHand::getCardAt(int index) {
+    return hand[index];
+}

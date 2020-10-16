@@ -34,6 +34,8 @@ CMakeFiles/PokerAnalysis.dir/PokerScore.cpp.obj
 CMakeFiles/PokerAnalysis.dir/main.cpp.obj
  E:/CLion Projects/Fall2020/PokerAnalysis/BaseCard.h
  E:/CLion Projects/Fall2020/PokerAnalysis/CardHand.h
+ E:/CLion Projects/Fall2020/PokerAnalysis/CardHandScorer.h
  E:/CLion Projects/Fall2020/PokerAnalysis/CardVariables.h
  E:/CLion Projects/Fall2020/PokerAnalysis/Deck.h
+ E:/CLion Projects/Fall2020/PokerAnalysis/PokerScore.h
  E:/CLion Projects/Fall2020/PokerAnalysis/main.cpp
