@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PokerAnalysis"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PokerAnalysis">
+				<Option output="E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/PokerAnalysis.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 PokerAnalysis"/>
+					<CompileFile command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PokerAnalysis/fast">
+				<Option output="E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/PokerAnalysis.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 PokerAnalysis/fast"/>
+					<CompileFile command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw32/bin/mingw32-make.exe -f &quot;E:/CLion Projects/Fall2020/PokerAnalysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/CLion Projects/Fall2020/PokerAnalysis/BaseCard.cpp">
+			<Option target="PokerAnalysis"/>
+		</Unit>
+		<Unit filename="E:/CLion Projects/Fall2020/PokerAnalysis/BaseCard.h">
+			<Option target="PokerAnalysis"/>
+		</Unit>
+		<Unit filename="E:/CLion Projects/Fall2020/PokerAnalysis/CardHand.cpp">
+			<Option target="PokerAnalysis"/>
+		</Unit>
+		<Unit filename="E:/CLion Projects/Fall2020/PokerAnalysis/CardHand.h">
+			<Option target="PokerAnalysis"/>
+		</Unit>
+		<Unit filename="E:/CLion Projects/Fall2020/PokerAnalysis/CardHandScorer.cpp">
+			<Option target="PokerAnalysis"/>
+		</Unit>
+		<Unit filename="E:/CLion Projects/Fall2020/PokerAnalysis/CardHandScorer.h">
+			<Option target="PokerAnalysis"/>
+		</Unit>
+		<Unit filename="E:/CLion Projects/Fall2020/PokerAnalysis/CardVariables.h">
+			<Option target="PokerAnalysis"/>
+		</Unit>
+		<Unit filename="E:/CLion Projects/Fall2020/PokerAnalysis/Deck.cpp">
+			<Option target="PokerAnalysis"/>
+		</Unit>
+		<Unit filename="E:/CLion Projects/Fall2020/PokerAnalysis/Deck.h">
+			<Option target="PokerAnalysis"/>
+		</Unit>
+		<Unit filename="E:/CLion Projects/Fall2020/PokerAnalysis/PokerScore.cpp">
+			<Option target="PokerAnalysis"/>
+		</Unit>
+		<Unit filename="E:/CLion Projects/Fall2020/PokerAnalysis/PokerScore.h">
+			<Option target="PokerAnalysis"/>
+		</Unit>
+		<Unit filename="E:/CLion Projects/Fall2020/PokerAnalysis/main.cpp">
+			<Option target="PokerAnalysis"/>
+		</Unit>
+		<Unit filename="E:/CLion Projects/Fall2020/PokerAnalysis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

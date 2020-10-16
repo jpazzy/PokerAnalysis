@@ -1,0 +1,76 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CLion Projects/Fall2020/PokerAnalysis/BaseCard.cpp
+BaseCard.h
+E:/CLion Projects/Fall2020/PokerAnalysis/BaseCard.h
+string
+-
+iostream
+-
+
+E:/CLion Projects/Fall2020/PokerAnalysis/BaseCard.h
+CardVariables.h
+E:/CLion Projects/Fall2020/PokerAnalysis/CardVariables.h
+string
+-
+
+E:/CLion Projects/Fall2020/PokerAnalysis/CardHand.cpp
+CardHand.h
+E:/CLion Projects/Fall2020/PokerAnalysis/CardHand.h
+
+E:/CLion Projects/Fall2020/PokerAnalysis/CardHand.h
+Deck.h
+E:/CLion Projects/Fall2020/PokerAnalysis/Deck.h
+iostream
+-
+vector
+-
+
+E:/CLion Projects/Fall2020/PokerAnalysis/CardHandScorer.cpp
+CardHandScorer.h
+E:/CLion Projects/Fall2020/PokerAnalysis/CardHandScorer.h
+
+E:/CLion Projects/Fall2020/PokerAnalysis/CardHandScorer.h
+PokerScore.h
+E:/CLion Projects/Fall2020/PokerAnalysis/PokerScore.h
+
+E:/CLion Projects/Fall2020/PokerAnalysis/CardVariables.h
+
+E:/CLion Projects/Fall2020/PokerAnalysis/Deck.cpp
+Deck.h
+E:/CLion Projects/Fall2020/PokerAnalysis/Deck.h
+iostream
+-
+ctime
+-
+
+E:/CLion Projects/Fall2020/PokerAnalysis/Deck.h
+BaseCard.h
+E:/CLion Projects/Fall2020/PokerAnalysis/BaseCard.h
+CardVariables.h
+E:/CLion Projects/Fall2020/PokerAnalysis/CardVariables.h
+
+E:/CLion Projects/Fall2020/PokerAnalysis/PokerScore.cpp
+PokerScore.h
+E:/CLion Projects/Fall2020/PokerAnalysis/PokerScore.h
+
+E:/CLion Projects/Fall2020/PokerAnalysis/PokerScore.h
+CardHand.h
+E:/CLion Projects/Fall2020/PokerAnalysis/CardHand.h
+
+E:/CLion Projects/Fall2020/PokerAnalysis/main.cpp
+iostream
+-
+Deck.h
+E:/CLion Projects/Fall2020/PokerAnalysis/Deck.h
+CardVariables.h
+E:/CLion Projects/Fall2020/PokerAnalysis/CardVariables.h
+CardHand.h
+E:/CLion Projects/Fall2020/PokerAnalysis/CardHand.h
+
