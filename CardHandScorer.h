@@ -12,6 +12,7 @@ public:
     static void sort(CardHand& hand);
     static void swap(BaseCard& card1, BaseCard& card2);
     static PokerScore scorePokerHand(CardHand hand);
+    static void displayScores(const PokerScore& score);
 };
 
 

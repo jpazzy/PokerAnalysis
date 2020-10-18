@@ -43,7 +43,6 @@ BaseCard Deck::dealCard() {
 }
 
 void Deck::shuffle() {
-    srand(time(nullptr));
     for(int i=0;i<DECK_SIZE;i++){
         // selecting an index from 0- index
         int j = rand()% (i+1);

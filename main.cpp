@@ -1,29 +1,29 @@
 #include <iostream>
+#include <ctime>
 #include "Deck.h"
 #include "CardVariables.h"
 #include "CardHand.h"
 #include "CardHandScorer.h"
+using namespace std;
 int main() {
-    Deck deck;
-    deck.shuffle();
- //   std::cout<< deck<< std::endl;
+    srand(time(nullptr));
+        PokerScore total;
+        for(int i=0;i<1000;i++) {
+            Deck deck;
+            deck.shuffle();
 
-    CardHand player1,player2;
-    // possibly set this up for poker?
-    for(int i=0;i<5;i++) {
-        player1.addCard(deck.dealCard());
-        player2.addCard(deck.dealCard());
-    }
-    std::cout<<player1<<std::endl;
- //   std::cout<<player2<<std::endl;
+            CardHand player1,player2,player3,player4,player5;
+            for (int j = 0; j < 5; j++) {
+                player1.addCard(deck.dealCard());
+                player2.addCard(deck.dealCard());
+                player3.addCard(deck.dealCard());
+                player4.addCard(deck.dealCard());
+                player5.addCard(deck.dealCard());
 
-    CardHandScorer::sort(player1);
-    std::cout<<player1<<std::endl;
-
-
-
-
-
+            }
+             total+= CardHandScorer::scorePokerHand(player1);
+        }
+        std::cout<<total;
 
     return 0;
 }
