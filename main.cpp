@@ -8,7 +8,7 @@ using namespace std;
 int main() {
     srand(time(nullptr));
         PokerScore total;
-        for(int i=0;i<1000;i++) {
+        for(int i=0;i<650000;i++) {
             Deck deck;
             deck.shuffle();
 

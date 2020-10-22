@@ -75,11 +75,20 @@ bool PokerScore::hasFlush(CardHand sortedHand) {
 }
 
 bool PokerScore::hasStraight(CardHand sortedHand) {
-    for(int i=0;i<sortedHand.getSize()-1;i++) {
-        if (sortedHand.getCardAt(i).getRankValue()!=sortedHand.getCardAt(i+1).getRankValue()-1)
-            return false;
-    }
-    return true;
+    if(sortedHand.getCardAt(0).getRank()==cv::ACE){
+        for(int i=1;i<sortedHand.getSize()-1;i++) {
+            if (sortedHand.getCardAt(i).getRankValue() != sortedHand.getCardAt(i + 1).getRankValue() - 1)
+                return false;
+            }
+                return true;
+        }
+
+    else
+        for(int i=0;i<sortedHand.getSize()-1;i++) {
+            if (sortedHand.getCardAt(i).getRankValue()!=sortedHand.getCardAt(i+1).getRankValue()-1)
+                return false;
+        }
+            return true;
 }
 
 bool PokerScore::hasThreeOfAKind(CardHand sortedHand) {
@@ -105,15 +114,14 @@ bool PokerScore::hasThreeOfAKind(CardHand sortedHand) {
 
 bool PokerScore::hasTwoPair(CardHand sortedHand) {
     int tracker=0;
-    if(hasThreeOfAKind(sortedHand))
-        return false;
     for(int i=0;i<sortedHand.getSize()-1;i++){
         if(sortedHand.getCardAt(i).getRankValue()==sortedHand.getCardAt(i+1).getRankValue()) {
             tracker++;
+            i++;
         }
     }
 
-    return (tracker==2);
+    return (tracker>=2);
 }
 bool PokerScore::hasOnePair(CardHand sortedHand) {
     for(int i=0;i<sortedHand.getSize()-1;i++){
@@ -124,7 +132,7 @@ bool PokerScore::hasOnePair(CardHand sortedHand) {
 }
 bool PokerScore::hasHighCard(const CardHand& sortedHand) {
     if(sortedHand.getSize()>0)
-    return true;
+        return true;
 }
 
 void PokerScore::addScore(PokerScore::Scores score) {
@@ -140,9 +148,8 @@ bool operator==(const PokerScore &p, PokerScore::Scores score) {
     for(int i=0;i<p.size();i++){
         if(p.getScoreAt(i)==score)
             return true;
-
-
     }
+    return false;
 }
 
 PokerScore::Scores PokerScore::getScoreAt(int index) const{
@@ -157,7 +164,6 @@ void PokerScore::operator+=(const PokerScore &score) {
 }
 
 std::ostream &operator<<(std::ostream &out,const PokerScore &score) {
-
     int ROYAL_FLUSH=0,STRAIGHT_FLUSH=0,FOUR_OF_A_KIND=0,FULL_HOUSE=0,FLUSH=0,
     STRAIGHT=0,THREE_OF_A_KIND=0,TWO_PAIR=0,ONE_PAIR=0,HIGH_CARD=0;
     for(int i=0;i<score.size();i++)

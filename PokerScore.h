@@ -56,8 +56,5 @@ public:
     Scores getScoreAt(int index) const;
 private:
     std::vector<Scores> scores;
-
 };
-
-
 #endif //POKERANALYSIS_POKERSCORE_H

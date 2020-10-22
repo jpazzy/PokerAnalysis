@@ -36,25 +36,7 @@ E:/CLion Projects/Fall2020/PokerAnalysis/BaseCard.h
 CardVariables.h
 E:/CLion Projects/Fall2020/PokerAnalysis/CardVariables.h
 
-E:/CLion Projects/Fall2020/PokerAnalysis/PokerScore.cpp
-PokerScore.h
-E:/CLion Projects/Fall2020/PokerAnalysis/PokerScore.h
-
 E:/CLion Projects/Fall2020/PokerAnalysis/PokerScore.h
 CardHand.h
 E:/CLion Projects/Fall2020/PokerAnalysis/CardHand.h
-
-E:/CLion Projects/Fall2020/PokerAnalysis/main.cpp
-iostream
--
-ctime
--
-Deck.h
-E:/CLion Projects/Fall2020/PokerAnalysis/Deck.h
-CardVariables.h
-E:/CLion Projects/Fall2020/PokerAnalysis/CardVariables.h
-CardHand.h
-E:/CLion Projects/Fall2020/PokerAnalysis/CardHand.h
-CardHandScorer.h
-E:/CLion Projects/Fall2020/PokerAnalysis/CardHandScorer.h
 

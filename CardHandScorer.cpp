@@ -1,9 +1,9 @@
 //
 // Created by Justin on 10/15/2020.
 //
-static int ROYAL_FLUSH=0; //A, K, Q, J, 10, all the same suit.
-static int STRAIGHT_FLUSH=0; //five cards of the same suit and consecutive ranking
-static int FOUR_OF_A_KIND=0; //four cards of the same ranking
+static int ROYAL_FLUSH=0;
+static int STRAIGHT_FLUSH=0;
+static int FOUR_OF_A_KIND=0;
 static int FULL_HOUSE=0;
 static int FLUSH =0;
 static int STRAIGHT=0;
@@ -101,7 +101,7 @@ void CardHandScorer::displayScores(const PokerScore &score) {
                 HIGH_CARD++;
                 break;
         };
-    std::cout<<"Royal Flush: " << ROYAL_FLUSH <<std::endl
+    std::cout<< "Royal Flush: " << ROYAL_FLUSH <<std::endl
              << "Straight Flush: " << STRAIGHT_FLUSH <<std::endl
              << "Four of a Kind: "<< FOUR_OF_A_KIND <<std::endl
              << "Full House: "<< FULL_HOUSE <<std::endl

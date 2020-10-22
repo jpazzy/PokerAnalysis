@@ -51,7 +51,7 @@ void Deck::shuffle() {
     //Shuffle it twice because I am cool like that
     for(int i=0;i<DECK_SIZE;i++){
         // selecting an index from 0- index
-        int j = rand()% (i+1);
+        int j = rand()% 52;
         swap(deck[i],deck[j]);
     }
 }
